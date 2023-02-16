@@ -1,0 +1,77 @@
+body{
+   margin:0; padding:0; box-sizing: border-box;
+    background-color: gray; 
+    font-family: 'Dancing Script', cursive ;
+
+    }
+    .cover{
+        object-fit: cover;
+        object-position: center;
+        position:absolute;
+        z-index: -1;
+        width:100%; height:100%;
+    }
+.container{
+    display:flex;
+    
+    justify-content: space-between;
+
+}
+.colum{
+    width:400px;  margin:20px;
+}
+.box{ color:gold;
+    padding:20px; 
+    border-radius:5px; }
+/* first colum start */
+.boxtitle{
+    font-size:20px;
+   margin-bottom:20px; }
+.boxcot{
+    height:240px;}
+    
+.boxin{
+ border-radius:5px; width:100%; height:100%; }
+
+ .perf{
+    margin:10px ; }
+
+.op{
+    opacity: 0.4;
+}
+.txco{
+    display:flex;
+    justify-content: space-between;
+    opacity:0.9;
+}
+.btco{
+    margin-bottom:10px;
+    color:gold;
+  
+}
+.btvd{
+    margin-bottom:10px;
+}
+.patxco{
+   
+    margin-bottom:20px;
+}
+/* first column end */
+/* second colum start */
+.seimco{
+    height:150px;
+}
+.seim{
+    width:100%;
+    height:100%;
+}
+.tx1{
+    font-size: 25px;
+    margin:15px 0px;
+}
+.tx2{
+    margin-bottom:30px;
+}
+.fo{
+    color:red;
+}
